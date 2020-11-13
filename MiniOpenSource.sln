@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOpenSource.Common", "MiniOpenSource.Common\MiniOpenSource.Common.csproj", "{ABDF15A1-3E83-4C55-9A1F-49DFF66E22D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOpenSource.Model", "MiniOpenSource.Model\MiniOpenSource.Model.csproj", "{DF3BC8CB-135D-464F-81FE-961337E30CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOpenSource.Data", "MiniOpenSource.Data\MiniOpenSource.Data.csproj", "{EB8A468E-889B-4CE4-B282-EFB88302E9C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOpenSource.Service", "MiniOpenSource.Service\MiniOpenSource.Service.csproj", "{49972BFE-7036-47A3-9A82-3D765DBC5031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOpenSource.UnitTest", "MiniOpenSource.UnitTest\MiniOpenSource.UnitTest.csproj", "{DD4D0196-4920-464E-B042-99EA845818DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOpenSource.WebAPI", "MiniOpenSource.WebAPI\MiniOpenSource.WebAPI.csproj", "{34AF5D3C-ABC2-42F8-BFDF-3D8B2C963D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDF15A1-3E83-4C55-9A1F-49DFF66E22D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF15A1-3E83-4C55-9A1F-49DFF66E22D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF15A1-3E83-4C55-9A1F-49DFF66E22D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF15A1-3E83-4C55-9A1F-49DFF66E22D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3BC8CB-135D-464F-81FE-961337E30CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3BC8CB-135D-464F-81FE-961337E30CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3BC8CB-135D-464F-81FE-961337E30CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3BC8CB-135D-464F-81FE-961337E30CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8A468E-889B-4CE4-B282-EFB88302E9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8A468E-889B-4CE4-B282-EFB88302E9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8A468E-889B-4CE4-B282-EFB88302E9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8A468E-889B-4CE4-B282-EFB88302E9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49972BFE-7036-47A3-9A82-3D765DBC5031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49972BFE-7036-47A3-9A82-3D765DBC5031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49972BFE-7036-47A3-9A82-3D765DBC5031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49972BFE-7036-47A3-9A82-3D765DBC5031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4D0196-4920-464E-B042-99EA845818DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4D0196-4920-464E-B042-99EA845818DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4D0196-4920-464E-B042-99EA845818DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4D0196-4920-464E-B042-99EA845818DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AF5D3C-ABC2-42F8-BFDF-3D8B2C963D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AF5D3C-ABC2-42F8-BFDF-3D8B2C963D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AF5D3C-ABC2-42F8-BFDF-3D8B2C963D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AF5D3C-ABC2-42F8-BFDF-3D8B2C963D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1836763C-BCA1-4A8E-B466-3377D0CC4521}
+	EndGlobalSection
+EndGlobal
