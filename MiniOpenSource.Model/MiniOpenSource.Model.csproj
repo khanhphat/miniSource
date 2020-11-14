@@ -62,8 +62,6 @@
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="Abstract\MaxlengthAttribute.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Model\ApplicationUser.cs" />
     <Compile Include="Model\ContactDetail.cs" />
     <Compile Include="Model\Error.cs" />
