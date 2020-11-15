@@ -13,7 +13,7 @@ namespace MiniOpenSource.Data.Repositories
 	{
 		IEnumerable<ProductCategory> GetByAlias(string alias);
 	}
-	public class ProductCategoryRepository : RepositoryBase<ProductCategory>
+	public class ProductCategoryRepository : RepositoryBase<ProductCategory>, IProductCategoryRepository
 	{
 		public ProductCategoryRepository(IDBFactory dbFactory)
 			: base(dbFactory)

@@ -10,7 +10,7 @@ namespace MiniOpenSource.Data
 {
 	public class MiniOSDbContext : DbContext
 	{
-		public MiniOSDbContext() : base("MiniOpenSourceConnection")
+		public MiniOSDbContext() : base("DefaultConnection")
 		{
 			//khi load 1 bang cha se ko tu dong include them bang con
 			this.Configuration.LazyLoadingEnabled = false;
