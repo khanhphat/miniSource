@@ -25,19 +25,19 @@ namespace MiniOpenSource.UnitTest.RepositoryTest
 			unitOfWork = new UnitOfWork(dbFactory);
 		}
 
-		//[TestMethod]
-		//public void PostCategory_Repository_Create()
-		//{
-		//	PostCategory category = new PostCategory();
-		//	category.Name = "Test category";
-		//	category.Alias = "Test-category";
-		//	category.Status = true;
+		[TestMethod]
+		public void PostCategory_Repository_Create()
+		{
+			PostCategory category = new PostCategory();
+			category.Name = "Test category";
+			category.Alias = "Test-category";
+			category.Status = true;
 
-		//	var result = objRepository.Add(category);
-		//	unitOfWork.Commit();
+			var result = objRepository.Add(category);
+			unitOfWork.Commit();
 
-		//	Assert.IsNotNull(result);
-		//	Assert.AreEqual(1, result.ID);
-		//}
+			Assert.IsNotNull(result);
+			Assert.AreEqual(1, result.ID);
+		}
 	}
 }

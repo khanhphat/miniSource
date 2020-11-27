@@ -7,13 +7,9 @@ using System.Threading.Tasks;
 
 namespace MiniOpenSource.Service
 {
-	public interface IProductCategoryService
+	
+	public class ProductCategoryService
 	{
 		
-	}
-	public class ProductCategoryService : IProductCategoryService
-	{
-		private IProductCategoryService _productCategoryService;
-		private IUnitOfWork _unitOfWork;
 	}
 }
